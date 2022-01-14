@@ -5,6 +5,7 @@
   "repository": "https://github.com/ducnam4298/website-scraper.git",
   "author": "ducnam4298 <ducnam428@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "website-scraper": "^4.2.3"
   }
