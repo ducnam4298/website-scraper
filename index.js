@@ -1,4 +1,4 @@
-const scrape = require("website-scraper");
+import scrape from "website-scraper";
 const websiteUrl = "url web you want";
 
 scrape({
