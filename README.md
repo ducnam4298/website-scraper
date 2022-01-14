@@ -6,4 +6,4 @@ Can you scraper one website you want
 - run : yarn add website-scraper
 - run : node index.js
 Note : It will take a while for the program to complete
-can you see folder template-clone
+Can you see folder template-clone
