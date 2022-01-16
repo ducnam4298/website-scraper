@@ -3,16 +3,17 @@ const websiteUrl = "url web you want";
 
 scrape({
   urls: [websiteUrl],
-  urlFilter: function (url) {
+  urlFilter: (url) => {
     return url.indexOf(websiteUrl) === 0;
   },
   recursive: true,
   maxDepth: 50,
   prettifyUrls: true,
   filenameGenerator: "bySiteStructure",
-  directory: "../template-clone",
+  directory: "./template-clone",
 })
   .then((data) => {
+    console.log("data", data);
     console.log("Entire website successfully downloaded");
   })
   .catch((err) => {
